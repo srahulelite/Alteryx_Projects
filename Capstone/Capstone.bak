@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<AlteryxDocument yxmdVer="2018.1">
+  <Nodes>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="402" width="84" height="96" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Supplied Benchmark Data</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="234" width="84" height="96" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Supplied Survey Data</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">Engagment Data.xlsx|||`Sheet1$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Engagment Data.xlsx
+Table=`Sheet1$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field 1" size="255" source="File: C:\Users\iwiggins\Desktop\Prescriptive take 3\Capstone Projects\HR Capstone\Engagment Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Field 2" size="255" source="File: C:\Users\iwiggins\Desktop\Prescriptive take 3\Capstone Projects\HR Capstone\Engagment Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Field 3" size="255" source="File: C:\Users\iwiggins\Desktop\Prescriptive take 3\Capstone Projects\HR Capstone\Engagment Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Field 4" size="255" source="File: C:\Users\iwiggins\Desktop\Prescriptive take 3\Capstone Projects\HR Capstone\Engagment Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Field 5" size="255" source="File: C:\Users\iwiggins\Desktop\Prescriptive take 3\Capstone Projects\HR Capstone\Engagment Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Field 6" size="255" source="File: C:\Users\iwiggins\Desktop\Prescriptive take 3\Capstone Projects\HR Capstone\Engagment Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Field 7" size="255" source="File: C:\Users\iwiggins\Desktop\Prescriptive take 3\Capstone Projects\HR Capstone\Engagment Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Field 8" size="255" source="File: C:\Users\iwiggins\Desktop\Prescriptive take 3\Capstone Projects\HR Capstone\Engagment Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Field 9" size="255" source="File: C:\Users\iwiggins\Desktop\Prescriptive take 3\Capstone Projects\HR Capstone\Engagment Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Field 10" size="255" source="File: C:\Users\iwiggins\Desktop\Prescriptive take 3\Capstone Projects\HR Capstone\Engagment Data.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Field 11" size="255" source="File: C:\Users\iwiggins\Desktop\Prescriptive take 3\Capstone Projects\HR Capstone\Engagment Data.xlsx|||`Sheet1$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="66" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="6" />
+          <Fields>
+            <Field name="Name" />
+            <Field name="1" />
+            <Field name="2" />
+            <Field name="3" />
+            <Field name="4" />
+          </Fields>
+          <Data>
+            <r>
+              <c>Department</c>
+              <c>Customer Operations</c>
+              <c>Customer Support</c>
+              <c>HR</c>
+              <c>Training</c>
+            </r>
+            <r>
+              <c>Q1:I understand how my role contributes to the company's mission.</c>
+              <c>4.1</c>
+              <c>5.8</c>
+              <c>5.3</c>
+              <c>5.1</c>
+            </r>
+            <r>
+              <c>Q2:My work is recognized by leadership.</c>
+              <c>4.8</c>
+              <c>4.6</c>
+              <c>5.4</c>
+              <c>4.4</c>
+            </r>
+            <r>
+              <c>Q3:I have access to the resources I need to achieve success.</c>
+              <c>6.1</c>
+              <c>5.7</c>
+              <c>5.2</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>Q4:I would recommend this workplace.</c>
+              <c>5.8</c>
+              <c>4.2</c>
+              <c>6.2</c>
+              <c>4.5</c>
+            </r>
+            <r>
+              <c>Q5:I feel informed of Senior Leadership's strategies and vision.</c>
+              <c>5.2</c>
+              <c>4.6</c>
+              <c>4.1</c>
+              <c>3.9</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Name" size="65" source="TextInput:" type="V_String" />
+            <Field name="1" size="19" source="TextInput:" type="V_String" />
+            <Field name="2" size="16" source="TextInput:" type="V_String" />
+            <Field name="3" size="3" source="TextInput:" type="String" />
+            <Field name="4" size="8" source="TextInput:" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="210" y="54" width="528" height="48" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Capstone Exercise</Text>
+          <Font name="Montserrat ExtraBold" size="21.75" style="1" />
+          <TextColor name="White" />
+          <FillColor r="13" g="35" b="69" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="66" y="102" width="792" height="60" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[Use what you've learned to make the engagement survey results more end-user oriented. Start by calculating the Departmental averages for each question. 
+
+Then add in the Industry Benchmark data and compare the results. Scores averaging 1 point below benchmark should be flagged for REVIEW. ]]></Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="810" y="222" width="84" height="96" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Final State</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="822" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">Final State - Capstone.yxdb</File>
+          <FormatSpecificOptions />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Final State - Capstone.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Department" size="2048" source="Summarize: GroupBy - Department" type="V_String" />
+            <Field name="#" size="2" source="Transpose:" type="String" />
+            <Field description="TextToColumns: Parsed from Name" name="Question" size="65" source="TextToColumns: Parsed from Name" type="V_String" />
+            <Field name="Score" source="Summarize: (Multiple Sources)" type="Double" />
+            <Field name="Benchmark" source="TextInput:" type="Double" />
+            <Field name="Delta" source="Formula: [Score]-[Benchmark]" type="Double" />
+            <Field name="Review" size="1073741823" source="Formula: if [Delta]&lt;-1 then &quot;REVIEW&quot; else &quot;&quot; endif" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+  </Nodes>
+  <Connections />
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Capstone</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
